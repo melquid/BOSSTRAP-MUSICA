@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.101.0" />
+    <title>Mel Space</title>
+
+    <!--Bootstrap core CSS-->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/carousel.css" rel="stylesheet" />
+    <link rel="icon" href="img/Mel.png" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#"
+          ><img src="img/Mel.png" width="60px" alt="" srcset=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#primeiro">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#patroc">Patrocinios</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Pesquisar.."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/texture-treble-clef-dark-background-isolated-generative-ai (1).jpg"
+              alt=""
+              srcset=""
+            />
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Calor Contagiante</h1>
+                <p>
+                  O calor do sol abraça minha pele, despertando uma tempestade
+                  de emoções dentro de mim.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Conferir</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/amigos-tilintar-de-copos-de-bebida-em-um-bar-moderno.jpg"
+              alt=""
+              srcset=""
+            />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Diversão sem limites</h1>
+                <p>
+                  A verdadeira diversão está em soltar as amarras da rotina,
+                  deixar a alegria fluir e dançar ao ritmo contagiante da vida,
+                  sem medo de ser feliz.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/closeup-dj-working-blue-light.jpg" alt="" srcset="" />
+
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Alegria não falta!</h1>
+                <p>
+                  Quando a alegria transborda em cada instante, os sorrisos
+                  contagiam, as risadas ecoam e a energia positiva se torna uma
+                  fonte inesgotável de felicidade. Alegria não falta, apenas se
+                  multiplica!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#myCarousel"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#myCarousel"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only" id="patroc">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              class="patro"
+              src="img/coca (1).png"
+              alt=""
+              srcset=""
+              width="140px"
+              height="140px"
+            />
+
+            <h2>Coca-Cola</h2>
+            <p>
+              Desde 2009, o mote da Coca era "Abra a Felicidade", no Brasil -
+              "Open Happiness", no original. Agora, o mote será "Taste The
+              Feeling", que por aqui ficou "Sinta o Sabor".
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://www.coca-cola.com.br/minha-receita-magica?utm_source=google_p&utm_medium=Search&utm_campaign=Meals23CokeMeals&utm_term=262235SC1700107&utm_content=link&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbxRPOdb1-ftFFw1kZjXfq-To4yRYq0ZH3_9vtbUcgBu-e-OKK6axMkaAnydEALw_wcB"
+                target="_blank"
+                >Confira &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              class="patro"
+              src="img/amev (1).png"
+              alt=""
+              srcset=""
+              width="140px"
+              height="140px"
+            />
+
+            <h2>Ambev</h2>
+            <p>
+              Uma boa cerveja é como uma poesia líquida, que desliza suavemente
+              pela garganta, despertando os sentidos e elevando os momentos de
+              prazer.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://www.ambev.com.br/"
+                target="_blank"
+                >Confira &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              class="patro"
+              src="img/jack (1).png"
+              alt=""
+              srcset=""
+              width="140px"
+              height="140px"
+            />
+
+            <h2>Jack Daniel's</h2>
+            <p>
+              O sabor inconfundível de Jack Daniel's é a harmonia perfeita entre
+              a tradição destilada e a ousadia que desafia os paladares,
+              tornando cada gole uma experiência única e autêntica.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://www.jackdaniels.com/pt-br"
+                target="_blank"
+                >Confira &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" id="primeiro" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Matue. <span class="text-muted">17/09/2023</span>
+            </h2>
+            <p class="lead">
+              Matheus Brasileiro Aguiar, mais conhecido pelo nome artístico
+              Matuê, é um rapper, cantor e compositor brasileiro. Ficou
+              conhecido com os singles "Anos Luz", lançado em 2017 e pelo álbum
+              "Máquina do tempo" lançado em 2020. É considerado um dos símbolos
+              do trap brasileiro.
+            </p>
+          </div>
+          <div class="col-md-5">
+           <a href="img/matue.jpg"> <img
+              src="img/matue.jpg"
+              alt=""
+              srcset=""
+              width="400px"
+              height="400px"
+            /></a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+              Felipe Ret, Major Rd<span class="text-muted"> 20/10/2023</span>
+            </h2>
+            <p class="lead">
+              Filipe Cavaleiro de Macedo da Silva Faria, mais conhecido pelo seu
+              nome artístico Filipe Ret, é um rapper, cantor, compositor,
+              comunicólogo, poeta e empresário brasileiro.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="img/13-05 Ret e RD em São Gonçalo (1).jpg"
+              alt=""
+              srcset=""
+              width="400px"
+              height="400px"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Henrique e Juliano. <span class="text-muted">12/11/2023.</span>
+            </h2>
+            <p class="lead">
+              Os irmãos nasceram na cidade de Palmeirópolis, no interior do
+              estado do Tocantins e possuem uma trajetória longa pela busca do
+              sonho de viver da música.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="img/henriqueJuliano (1).jpg"
+              alt=""
+              srcset=""
+              width="400px"
+              height="400px"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+        <div class="youtube">
+          <iframe
+            width="100%"
+            height="570"
+            src="https://www.youtube.com/embed/vOrY5odqNK8"
+            title="ABERTURA MAINSTAGE GARDEN FESTIVAL 2019 + Vegas vs  Hi Profile"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <hr class="featurette-divider" />
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <div class="news">
+          <form>
+            <span>Newsletter </span
+            ><input
+              class="form-check-inline"
+              type="email"
+              placeholder="Jhon@gmail.com"
+            /><button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              Enviar
+            </button>
+          </form>
+          <br />
+          <br />
+        </div>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <b> Prezado cliente</b>
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Nesta edição da nossa newsletter, gostaríamos de expressar nosso
+                sincero agradecimento por sua contínua confiança e apoio. É
+                graças a clientes como você que podemos continuar oferecendo
+                produtos e serviços de alta qualidade.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-dismiss="modal"
+                >
+                  OK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="float-right topo" ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+          <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+        </svg></a></p>
+        <p>
+          Mel Space — Copyright 2022 &copy; — Todos os direitos reservados —
+          &middot; <a href="#">Politica de Privacidade</a> &middot;
+          <a href="#">Termos e Condiçoes</a>
+        </p>
+      </footer>
+      
+
+      <div class="what">
+        <a
+          href="https://api.whatsapp.com/send?phone=5531975540454&text=Bem%20vindo%20ao%20MelSpace!%0APreciso%20de%20ajuda!"
+          target="_blank"
+          ><img src="img/94110-whatsapp-transparent-unscreen.gif" alt="" srcset="" />
+        </a>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      
+      $(window).scroll(function(){
+        
+        if($(document).scrollTop() > 400 ){// se a rolagem passar de 200px esconde o elemento
+        
+            $('.topo').show();
+            
+        } else { // senão ele volta a ser visivel
+        
+            $('.topo').hide();
+            
+        }
+        
+    });
+    </script>
+  </body>
+</html>
